@@ -1,0 +1,30 @@
+{
+    "name": "jirry/services-interface",
+    "keywords": [
+        "rpc",
+        "interface"
+    ],
+    "description": "微服务API项目",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jirry",
+            "email": "390066398@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jirry\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">7.1"
+    },
+    "require-dev": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0-dev"
+        }
+    }
+}
